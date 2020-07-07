@@ -1,8 +1,7 @@
 {
   "start_datetime": "2017-01-01T00:00:00Z",
-  "end_datetime": "2017-02-01T00:00:00Z", // end_datetime is optional
-  "streams": [{"name": "schema_name",
-               "table": "`<project>.<dataset>.<table>`",
+    "streams": [{"name": "testtable1",
+               "table": "`ssbintegrationdevelopment.TestTapData.TestTable1`",
                "columns": ["*"],
-               "datetime_key": "CAST(<your_key> as datetime)"}]
+               "datetime_key": "CAST(lastModified as datetime)"}]
 }

@@ -12,7 +12,7 @@ setup(
     install_requires=[
         "singer-python>=5.0.12",
         "requests",
-        "google-cloud-bigquery==1.16.0",
+        "google-cloud-bigquery==1.25.0",
         "attrs==19.3.0"
     ],
     entry_points="""

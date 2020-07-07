@@ -5,7 +5,7 @@ import singer
 from singer import utils, metadata
 from singer.catalog import Catalog
 
-from . import sync_bigquery as source
+from tap_bigquery import sync_bigquery as source
 
 
 REQUIRED_CONFIG_KEYS = ["streams"]

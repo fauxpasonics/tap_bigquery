@@ -102,4 +102,5 @@ tags
 singer-check-tap-data
 state.json
 google_creds*.json
-
+.vscode/*
+catalog.json
